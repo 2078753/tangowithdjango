@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 
 TEMPLATE_PATH = os.path.join(BASE_DIR, 'templates')
 
+
 INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.auth',
@@ -39,7 +40,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rango',
-    'registration'
+    'registration', # add in the registration package
 )
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
