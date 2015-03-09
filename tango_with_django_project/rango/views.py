@@ -8,6 +8,7 @@ from django.contrib.auth import authenticate, login
 from django.http import HttpResponseRedirect, HttpResponse
 from django.contrib.auth.decorators import login_required
 from rango.bing_search import run_query
+<<<<<<< HEAD
 from django.shortcuts import redirect
 
 def track_url(request):
@@ -24,6 +25,8 @@ def track_url(request):
                 url = page.url
             except:
                 pass
+=======
+>>>>>>> 5d049142209eb46a51cf92202b5941ca755c8231
 
     return redirect(url)
   
